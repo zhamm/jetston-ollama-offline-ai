@@ -1,10 +1,11 @@
 # JONO - Jetson Orin Nano Ollama - Offline AI Server + Dashboard
 
 
+Have you ever wanted to have AI available when you were completely offline and no internet available?  Now you can create your own self contained AI Web Service and WiFi Portal!
 
-A portable AI inference server for the Jetson Orin Nano, preconfigured with Ollama WebUI for model interaction and a Jetson System Dashboard for monitoring. Runs as a standalone Wi-Fi access point (ollama-public) for offline use in classrooms, campgrounds, and labs.  This device is preconfigured as a **portable AI inference server** for campgrounds, classrooms, or offline labs.  
+JONO is a portable AI inference server for the Jetson Orin Nano, preconfigured with Ollama WebUI for model interaction and a Jetson System Dashboard for monitoring. Runs as a standalone Wi-Fi access point (ollama-public) for offline use in classrooms, campgrounds, and labs.  This device is preconfigured as a **portable AI inference server** for campgrounds, classrooms, or offline labs.  
 
-It runs **Ollama** with a web UI for model interaction, and a **Jetson System Dashboard** for monitoring system health.
+It runs **Ollama** with a web UI for model interaction, and a **Jetson System Dashboard** for monitoring system health.   
 
 ### Jetson Orin Nano
 ![Jetson Orin Nano](pics/jetson-orin-nano.jpg)
