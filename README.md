@@ -3,6 +3,7 @@
 
 
 A portable AI inference server for the Jetson Orin Nano, preconfigured with Ollama WebUI for model interaction and a Jetson System Dashboard for monitoring. Runs as a standalone Wi-Fi access point (ollama-public) for offline use in classrooms, campgrounds, and labs.  This device is preconfigured as a **portable AI inference server** for campgrounds, classrooms, or offline labs.  
+
 It runs **Ollama** with a web UI for model interaction, and a **Jetson System Dashboard** for monitoring system health.
 
 ### Jetson Orin Nano
