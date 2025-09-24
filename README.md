@@ -7,7 +7,7 @@ JONO is a portable AI inference server for the Jetson Orin Nano, preconfigured w
 
 It runs **Ollama** with a web UI for model interaction, and a **Jetson System Dashboard** for monitoring system health.   
 
-### Jetson Orin Nano
+### Offline Ollama in a small low power package!
 ![Jetson Orin Nano](pics/JONO_Cartoon.jpg)
 ---
 
