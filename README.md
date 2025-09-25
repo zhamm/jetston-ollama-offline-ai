@@ -18,7 +18,7 @@ It runs **Ollama** with a web UI for model interaction, and a **Jetson System Da
 ## ⚙️ Installation
 
 This release ships as a compressed disk image:  
-**`jetson-ollama-1.1.img.gz`**
+**`https://st67014.ispot.cc/jetson-ollama-1.1.img.gz`(https://st67014.ispot.cc/jetson-ollama-1.1.img.gz)**
 
 The image is designed for **128 GB NVMe storage**. You will need:
 - A Jetson Orin Nano Developer Kit
