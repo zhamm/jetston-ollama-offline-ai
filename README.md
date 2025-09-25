@@ -11,6 +11,10 @@ It runs **Ollama** with a web UI for model interaction, and a **Jetson System Da
 ![Jetson Orin Nano](pics/JONO_Cartoon.jpg)
 ---
 
+### Speed and Stats
+![Speed and Stats](pics/JONO-demo.gif)
+---
+
 ## ⚙️ Installation
 
 This release ships as a compressed disk image:  
