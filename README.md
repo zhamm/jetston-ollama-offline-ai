@@ -49,7 +49,7 @@ Example: `/dev/nvme0n1`
 
 Write the image:
 ```bash
-sudo dd if=jetson-ollama-1.1.img of=/dev/nvme0n1 bs=4M status=progress conv=fsync
+sudo dd if=jetson-ollama-1.1.img of=/dev/nvme0n1 bs=64M status=progress conv=fsync
 ```
 
 ⚠️ **Double-check your device path** (`/dev/nvme0n1`) — this will erase the entire drive.
@@ -76,7 +76,6 @@ sudo dd if=jetson-ollama-1.1.img of=/dev/nvme0n1 bs=4M status=progress conv=fsyn
 - Jetson Dashboard: **http://ollama.local:8080**
 
 ### 6. Post-Install Notes
-- Run `sudo apt update && sudo apt upgrade` to apply updates.  
 - Change the default passwords (`jetson`, `ollama`) before production use.  
 - If you encounter boot issues, confirm the NVMe is 128 GB or larger.
 
