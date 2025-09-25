@@ -15,6 +15,12 @@ It runs **Ollama** with a web UI for model interaction, and a **Jetson System Da
 ![Speed and Stats](pics/JONO-demo.gif)
 ---
 
+## Jetson Orin Nano Super Developer Kit
+The Jetson Orin Nano 8GB module features an Ampere GPU and a 6-core ARM CPU and is capable of running many complex Ollama models at speeds of up to 8-15 tps.
+- Get the Jetson Orin Nano from Amazon. (https://www.amazon.com/NVIDIA-Jetson-Orin-Nano-Developer/dp/B0BZJTQ5YP) or wherever.
+- Get the case for it on Amazon if you want. (https://www.amazon.com/Waveshare-Aluminum-Mini-Computer-Compatible-withJetson/dp/B0CG38BS5S)
+- Get a 128gb NVME on Amazon or wherever. (https://www.amazon.com/Patriot-P320-128GB-Internal-SSD/dp/B0D4RD18YV)
+
 ## ⚙️ Installation
 
 This release ships as a ~35Gb compressed disk image download:  
