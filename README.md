@@ -7,8 +7,8 @@ JONO is a portable AI inference server for the Jetson Orin Nano, preconfigured w
 
 It runs **Ollama** with a web UI for model interaction, and a **Jetson System Dashboard** for monitoring system health.   
 
-### Offline Ollama in a small low power package!
-![Jetson Orin Nano](pics/JONO_Cartoon.jpg)
+### Jetson Orin Nano
+![Jetson Orin Nano](pics/jetson-orin-nano.jpg)
 ---
 
 ### Speed and Stats
@@ -71,9 +71,9 @@ sudo dd if=jetson-ollama-1.1.img of=/dev/nvme0n1 bs=4M status=progress conv=fsyn
 ### 5. Access Services
 - Connect to Wi-Fi SSID: **`ollama-public`**  
   Password: **`111111111`**
-- Ollama WebUI: **https://ollama.lan/**  (default IP is 10.10.10.1 if DNS isn't working)
+- Ollama WebUI: **https://ollama.local/**  (default IP is 10.10.10.1 if DNS isn't working)
   - **Admin:** `ollama` / `ollama`
-- Jetson Dashboard: **http://ollama.lan:8080**
+- Jetson Dashboard: **http://ollama.local:8080**
 
 ### 6. Post-Install Notes
 - Run `sudo apt update && sudo apt upgrade` to apply updates.  
@@ -101,7 +101,7 @@ You will be given a DHCP address in the 10.10.10.0/24 network.
 - **Username:** `jetson`  
 - **Password:** `jetson`  
 
-### Ollama Web UI (https://ollama.lan)
+### Ollama Web UI (https://ollama.local)
 - **Username:** `ollama`  
 - **Password:** `ollama`  
 
@@ -109,10 +109,10 @@ You will be given a DHCP address in the 10.10.10.0/24 network.
 
 ## 🌐 Services
 
-- **Ollama Web UI:** [https://ollama.lan](https://ollama.lan)  
+- **Ollama Web UI:** [https://ollama.local](https://ollama.local)  
   (Access models, chat, and admin features)
 
-- **Jetson System Dashboard:** [http://ollama.lan:8080](http://ollama.lan:8080)  
+- **Jetson System Dashboard:** [http://ollama.local:8080](http://ollama.local:8080)  
   (Monitor CPU, GPU, memory, disk, temps, and uptime)
 
 ---
@@ -137,7 +137,7 @@ All other inbound connections are blocked by default.
 - **Jetson System Dashboard** – TCP 8080 (Jetson System Dashboard)
 - **DHCP** – UDP 67 (dnsmasq hands out IP addresses on `ollama-public`)
 - **DNS** – UDP/TCP 53 (dnsmasq provides local name resolution)
-- **mDNS** – UDP 5353 (so `ollama.lan` can resolve automatically on local network)
+- **mDNS** – UDP 5353 (so `ollama.local` can resolve automatically on local network)
 
 ---
 
